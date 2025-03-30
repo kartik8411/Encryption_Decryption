@@ -1,4 +1,9 @@
 from cryptography.fernet import Fernet
+import pyfiglet 
+from colorama import Fore 
+
+banner = pyfiglet.figlet_format('Symmetric Encrypt',font='doom')
+print(Fore.GREEN + banner)
 
 #It is an example of symmetric encryption, where the same key is used for both encryption and decryption.
 
