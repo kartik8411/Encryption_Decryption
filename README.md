@@ -43,7 +43,7 @@ decMessage = fernet.decrypt(encMessage).decode()
 ```
 ### The `decrypt` method is used to decrypt the encrypted message. After decryption, the result is decoded from bytes back to a string.
 
-![logo](https://github.com/kartik8411/Encryption_Decryption/blob/main/image1.png)
+![logo](https://github.com/kartik8411/Encryption_Decryption/blob/main/image2.png)
 
 
 
